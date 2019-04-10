@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.329
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BilletsystemWebApi", "BilletsystemWebApi\BilletsystemWebApi.csproj", "{6A39FF4A-190B-4064-B5E4-90C15F084DAE}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{6A39FF4A-190B-4064-B5E4-90C15F084DAE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6A39FF4A-190B-4064-B5E4-90C15F084DAE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6A39FF4A-190B-4064-B5E4-90C15F084DAE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6A39FF4A-190B-4064-B5E4-90C15F084DAE}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {C520649A-7D94-4DCC-8C97-43978BEA5BD4}
+	EndGlobalSection
+EndGlobal
