@@ -1,0 +1,24 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>StoreBaeltBilletLibrary</name>
+    </assembly>
+    <members>
+        <member name="M:StoreBaeltBilletLibrary.Bil.#ctor">
+            <summary>
+            Initialiserer et nyt instans af <see cref="T:StoreBaeltBilletLibrary.Bil"/> klassen
+            </summary>
+        </member>
+        <member name="M:StoreBaeltBilletLibrary.Bil.#ctor(System.String,System.DateTime)">
+            <summary>
+            Initialiserer et nyt instans af <see cref="T:StoreBaeltBilletLibrary.Bil"/> klassen med en nummerplade og en dato
+            </summary>
+        </member>
+        <member name="M:StoreBaeltBilletLibrary.Bil.NormalPris">
+            <summary>
+            Prisen for at krydse broen, 20% rabat hvis der er weekend
+            </summary>
+            <returns></returns>
+        </member>
+    </members>
+</doc>

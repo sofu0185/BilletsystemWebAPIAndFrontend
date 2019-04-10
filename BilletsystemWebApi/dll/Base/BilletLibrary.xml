@@ -1,0 +1,110 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>BilletLibrary</name>
+    </assembly>
+    <members>
+        <member name="T:BilletLibrary.Bil">
+            <summary>
+            Repræsentere en basal bil i systemet
+            </summary>
+        </member>
+        <member name="M:BilletLibrary.Bil.#ctor">
+            <summary>
+            Initialiserer et nyt instans af <see cref="T:BilletLibrary.Bil"/> klassen
+            </summary>
+        </member>
+        <member name="M:BilletLibrary.Bil.#ctor(System.String,System.DateTime)">
+            <summary>
+            Initialiserer et nyt instans af <see cref="T:BilletLibrary.Bil"/> klassen med en nummerplade og en dato
+            </summary>
+        </member>
+        <member name="M:BilletLibrary.Bil.NormalPris">
+            <summary>
+            Prisen for at krydse broen
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:BilletLibrary.Bil.KøretøjType">
+            <summary>
+            Retunere køretøjets type
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="T:BilletLibrary.Køretøj">
+            <summary>
+            Repræsentere et generalt køretøj som kryder en bro
+            </summary>
+        </member>
+        <member name="P:BilletLibrary.Køretøj.HasBrobizz">
+            <summary>
+            Indikerer om køretøjet har en brobizz
+            </summary>
+        </member>
+        <member name="M:BilletLibrary.Køretøj.#ctor">
+            <summary>
+            Initialiserer et nyt instans af <see cref="T:BilletLibrary.Køretøj"/> klassen
+            </summary>
+        </member>
+        <member name="M:BilletLibrary.Køretøj.#ctor(System.String,System.DateTime)">
+            <summary>
+            Initialiserer et nyt instans af <see cref="T:BilletLibrary.Køretøj"/> klassen med en nummerplade og en dato
+            </summary>
+        </member>
+        <member name="P:BilletLibrary.Køretøj.Nummerplade">
+            <summary>
+            Køretøjets _nummerplade
+            </summary>
+        </member>
+        <member name="P:BilletLibrary.Køretøj.Dato">
+            <summary>
+            Hvornår køretøjet kørte over broen
+            </summary>
+        </member>
+        <member name="M:BilletLibrary.Køretøj.Pris">
+            <summary>
+            Prisen for hvor meget det koster at krydse broen
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:BilletLibrary.Køretøj.NormalPris">
+            <summary>
+            Køretøjets specifike pris for at krydse broen
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:BilletLibrary.Køretøj.KøretøjType">
+            <summary>
+            Retunere køretøjets type
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="T:BilletLibrary.MC">
+            <summary>
+            Repræsentere en basal Motorcykel i systemet
+            </summary>
+        </member>
+        <member name="M:BilletLibrary.MC.#ctor">
+            <summary>
+            Initialiserer et nyt instans af <see cref="T:BilletLibrary.MC"/> klassen
+            </summary>
+        </member>
+        <member name="M:BilletLibrary.MC.#ctor(System.String,System.DateTime)">
+            <summary>
+            Initialiserer et nyt instans af <see cref="T:BilletLibrary.MC"/> klassen med en nummerplade og en dato
+            </summary>
+        </member>
+        <member name="M:BilletLibrary.MC.NormalPris">
+            <summary>
+            Prisen for at krydse broen
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:BilletLibrary.MC.KøretøjType">
+            <summary>
+            Retunere køretøjets type
+            </summary>
+            <returns></returns>
+        </member>
+    </members>
+</doc>

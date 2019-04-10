@@ -9,8 +9,22 @@
   </ItemGroup>
 
   <ItemGroup>
+    <PackageReference Include="Microsoft.AspNet.WebApi.Cors" Version="5.2.7" />
     <PackageReference Include="Microsoft.AspNetCore.App" />
     <PackageReference Include="Microsoft.AspNetCore.Razor.Design" Version="2.1.2" PrivateAssets="All" />
+    <PackageReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Design" Version="2.1.1" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Reference Include="BilletLibrary">
+      <HintPath>dll\Storebaelt\BilletLibrary.dll</HintPath>
+    </Reference>
+    <Reference Include="OeresundBilletLibrary">
+      <HintPath>dll\Oeresund\OeresundBilletLibrary.dll</HintPath>
+    </Reference>
+    <Reference Include="StoreBaeltBilletLibrary">
+      <HintPath>dll\Storebaelt\StoreBaeltBilletLibrary.dll</HintPath>
+    </Reference>
   </ItemGroup>
 
 </Project>

@@ -7,11 +7,14 @@ using Microsoft.AspNetCore;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.Logging;
+using BilletLibrary;
 
 namespace BilletsystemWebApi
 {
     public class Program
     {
+        public static List<Køretøj> Køretøjer { get; set; } = new List<Køretøj>();
+
         public static void Main(string[] args)
         {
             CreateWebHostBuilder(args).Build().Run();

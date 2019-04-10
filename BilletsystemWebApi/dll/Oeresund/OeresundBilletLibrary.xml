@@ -1,0 +1,66 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>OeresundBilletLibrary</name>
+    </assembly>
+    <members>
+        <member name="M:OeresundBilletLibrary.Bil.#ctor">
+            <summary>
+            Initialiserer et nyt instans af <see cref="T:OeresundBilletLibrary.Bil"/> klassen
+            </summary>
+        </member>
+        <member name="M:OeresundBilletLibrary.Bil.#ctor(System.String,System.DateTime)">
+            <summary>
+            Initialiserer et nyt instans af <see cref="T:OeresundBilletLibrary.Bil"/> klassen med en nummerplade og en dato
+            </summary>
+        </member>
+        <member name="M:OeresundBilletLibrary.Bil.Pris">
+            <summary>
+            Prisen for hvor meget det koster at krydse broen
+            </summary>
+            <param name="hasBrobizz">Indikerer om køretøjet har en brobizz</param>
+            <returns></returns>
+        </member>
+        <member name="M:OeresundBilletLibrary.Bil.NormalPris">
+            <summary>
+            Normal prisen for at krydse broen
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:OeresundBilletLibrary.Bil.KøretøjType">
+            <summary>
+            Retunere køretøjets type
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:OeresundBilletLibrary.MC.#ctor">
+            <summary>
+            Initialiserer et nyt instans af <see cref="T:OeresundBilletLibrary.MC"/> klassen
+            </summary>
+        </member>
+        <member name="M:OeresundBilletLibrary.MC.#ctor(System.String,System.DateTime)">
+            <summary>
+            Initialiserer et nyt instans af <see cref="T:OeresundBilletLibrary.MC"/> klassen med en nummerplade og en dato
+            </summary>
+        </member>
+        <member name="M:OeresundBilletLibrary.MC.Pris">
+            <summary>
+            Prisen for hvor meget det koster at krydse broen
+            </summary>
+            <param name="hasBrobizz">Indikerer om køretøjet har en brobizz</param>
+            <returns></returns>
+        </member>
+        <member name="M:OeresundBilletLibrary.MC.NormalPris">
+            <summary>
+            Normal prisen for at krydse broen
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:OeresundBilletLibrary.MC.KøretøjType">
+            <summary>
+            Retunere køretøjets type
+            </summary>
+            <returns></returns>
+        </member>
+    </members>
+</doc>
